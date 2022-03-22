@@ -41,9 +41,10 @@ public:
 
 struct TextMeasureData {
 	float textSize;
-	int idk;
-	bool displayShadow;
-	bool bool2;
+	float linePadding;
+	bool renderShadow;
+	bool showColorSymbol;
+	bool hideHyphen;
 };
 
 struct ImageInfo_t {
